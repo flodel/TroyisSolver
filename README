@@ -1,0 +1,38 @@
+
+                      -- Troyis Autonomous Player --
+
+** REQUIREMENTS **
+
+Because this program uses AutoHotkey, it can only be run on Windows.
+
+You'll also need a bit of programming/debugging skills as it is unlikely it will work out of the box.
+
+** INSTALL **
+
+1. create a directory and copy all files over, while preserving the directory structure.
+
+2. install R and AutoHotkey and add them to the PATH environment variable.
+
+3. install the 'png' R package. For that, you can start an R session then run the following command:
+
+   > install.packages("png")
+
+** USAGE **
+
+1. Start the main.ahk script (double click). It should open a GUI.
+
+2. Start a Troyis game. if possible, resize your browser so the game grid occupies a large portion of your screen
+
+The next steps are part of a demo video on youtube:
+http://www.youtube.com/watch?v=l08nx4u_5xw&feature=plcp
+
+3. Click the "Select Frame" button. By click/hold/drag/release, draw a rectangle that contains the game's board; from this point on, you should not modify the location of the board on your screen by moving your browser application around, or you will have to retake this step.
+
+4. Before solving a puzzle, you can adjust the delay (sleep time) that will be used between the automated clicks as the puzzle is solved.
+
+5. Start a Troyis level by hovering your mouse over the board. Wait for the puzzle to reveal itself, then click the "Solve" button. This is where the magic should happen. If nothing happens or you get an error message, you are up for some debugging...
+
+Note that this program can only solve a puzzle from the start so it is important that you do not move the knight before clicking "Solve".
+
+Good luck.
+
